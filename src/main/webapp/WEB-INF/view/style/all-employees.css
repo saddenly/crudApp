@@ -1,0 +1,81 @@
+* {
+    margin: auto;
+    font-family: Open-Sans, sans-serif;
+}
+
+.container {
+    width: 1200px;
+    display: block;
+}
+
+.header {
+    background-color: #18f0a2;
+    text-align: center;
+    height: 65px;
+    margin-bottom: 100px;
+}
+
+.header-text {
+    padding-top: 12px;
+}
+
+.button {
+    width: 160px;
+    height: 40px;
+    border: 2px solid rgba(232, 232, 232, 0.98);
+    background-color: #ffffff;
+    color: #4b00da;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 0 15px 10px;
+}
+
+.user-icon {
+    width: 25px;
+    height: 20px;
+}
+
+.message {
+    font-size: 22px;
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    position: relative;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+}
+
+.table {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #343a40;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+}
+
+.change-icon {
+    width: 25px;
+    height: 30px;
+}
+
+.change {
+    width: 60px;
+    height: 40px;
+    margin: 0;
+}
